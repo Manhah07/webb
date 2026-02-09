@@ -1,14 +1,19 @@
 <!doctype html>
 <html>
     <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@400;600;700&display=swap"
+      rel="stylesheet">
+        <link rel="stylesheet"href="css/style.css">
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Natthapat's Note</title>
     </head>
     <body>
-        <header>
-    <h1>🍃 Natthapat's Notes</h1>
-    <nav>
-        <a href="#drinkmenu">เมนู</a>
+        <header class = "site-header" id="top">
+    <h1 class="logo">🍃 Natthapat's Notes</h1>
+    <nav class ="main-nav">
+        <a href="#menu">เมนู</a>
         <a href="#about">เกี่ยวกับเรา</a>
         <a href="#contact">ติดต่อ</a>
     </nav>
@@ -38,14 +43,14 @@
 
 </div>
     <!-- ส่วน Hero -->
-    <section>
+    <section class="hero-sertion">
         <h2>กาแฟดี ๆ เริ่มต้นที่นี่</h2>
         <p>คัดสรรเมล็ดกาแฟคุณภาพจากดอยสูง ชงสดใหม่ทุกแก้ว</p>
     </section>
 
     <!-- ส่วนเมนู -->
     <section>
-        <h2>เมนูแนะนำ</h2>
+        <h2 class="section-title">เมนูแนะนำ</h2>
     <div>
         <div>
         <h3>☕ Espresso</h3>
@@ -54,13 +59,13 @@
     </div>
     <!-- การ์ดที่ 2 -->
     <div>
-        <h3>🍵 Matcha Latte</h3>
+        <h3 class="card-title">🍵 Matcha Latte</h3>
         <p>ชาเขียวเกรดพรีเมียมจากอุจิ</p>
         <p>฿75</p>
     </div>
     <!-- การ์ดที่ 3 -->
     <div>
-        <h3>🧊 Cold Brew</h3>
+       <h3 class="card-title">🧊 Cold Brew</h3>
         <p>สกัดเย็น 18 ชั่วโมง นุ่มลึก</p>
         <p>฿65</p>
     </div>
@@ -79,7 +84,7 @@
 <section id="menu">...</section>     <!-- ← #menu มาที่นี่ -->
 <article id="about">...</article>   <!-- ← #about มาที่นี่ -->
 <footer id="contact">...</footer>
-        <h2>เรื่องราวของเรา</h2>
+        <h2 class="section-title">เรื่องราวของเรา</h2>
         <p>Leaf & Bean Café เกิดจากความรักในกาแฟ...</p>
         <figure>
             <img src="cafe-interior.jpg" alt="บรรยากาศภายในร้าน">
@@ -88,13 +93,13 @@
     </article>
 </main>
 
-<aside>
+ <aside class="sidebar">
     <h3>🕐 เวลาเปิด-ปิด</h3>
     <p>จันทร์ - ศุกร์: 7:00 - 20:00</p>
     <p>เสาร์ - อาทิตย์: 8:00 - 21:00</p>
 </aside>
 
-<footer>
+  <footer class="site-footer" id="contact">
     <p>&copy; 2026 Leaf & Bean Café</p>
     <p>📍 ม.ศิลปากร วิทยาเขตสนามจันทร์ จ.นครปฐม</p>
 </footer>
